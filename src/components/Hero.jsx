@@ -53,14 +53,17 @@ export default function Hero() {
             <img
               src={slide.image}
               alt="EKTA HOTEL & ROOMS Ujjain premises"
-              className="w-full h-full object-cover brightness-[1.05] contrast-[1.02]"
+              className="w-full h-full object-cover brightness-[0.85] contrast-[1.02]"
               loading={idx === 0 ? "eager" : "lazy"}
             />
+            {/* Semi-transparent dark overlay for high text contrast */}
+            <div className="absolute inset-0 bg-black/45 z-10 pointer-events-none" />
+            
             {/* Top Vignette (to make transparent navbar text contrast perfectly) */}
-            <div className="absolute inset-x-0 top-0 h-[30%] bg-gradient-to-b from-black/65 via-black/30 to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-x-0 top-0 h-[30%] bg-gradient-to-b from-black/75 via-black/40 to-transparent z-10 pointer-events-none" />
             
             {/* Bottom Vignette (to make cinematic bottom transition slide smooth) */}
-            <div className="absolute inset-x-0 bottom-0 h-[30%] bg-gradient-to-t from-black/65 via-black/30 to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-x-0 bottom-0 h-[30%] bg-gradient-to-t from-black/75 via-black/40 to-transparent z-10 pointer-events-none" />
           </div>
         ))}
       </div>
@@ -72,25 +75,32 @@ export default function Hero() {
         
         {/* WELCOME TO badge with decorative horizontal lines */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="w-8 md:w-12 h-0.5 bg-[#C5A880]" />
-          <span className="text-[#C5A880] text-xs md:text-sm font-bold tracking-[0.3em] uppercase">
+          <span className="w-8 md:w-12 h-0.5 bg-[#C5A880] shadow-md" />
+          <span 
+            className="text-[#C5A880] text-xs md:text-sm font-bold tracking-[0.3em] uppercase"
+            style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.8)' }}
+          >
             Welcome To
           </span>
-          <span className="w-8 md:w-12 h-0.5 bg-[#C5A880]" />
+          <span className="w-8 md:w-12 h-0.5 bg-[#C5A880] shadow-md" />
         </div>
 
         {/* Heading: White serif and Bold Gold italic serif with text shadow */}
         <h1 
           className="font-serif text-4xl sm:text-6xl lg:text-7.5xl font-extrabold tracking-wide leading-tight mb-5"
-          style={{ textShadow: '3px 4px 10px rgba(0, 0, 0, 0.75)' }}
+          style={{ 
+            textShadow: '0 4px 12px rgba(0, 0, 0, 0.95), 0 0 25px rgba(0, 0, 0, 0.85), 0 0 45px rgba(197, 168, 128, 0.45)'
+          }}
         >
           EKTA <span className="text-[#C5A880] font-bold italic">Hotel & Rooms</span>
         </h1>
 
         {/* Subtitle with text shadow */}
         <p 
-          className="max-w-2xl text-sm sm:text-base lg:text-lg text-white/95 font-semibold tracking-wide leading-relaxed mb-10"
-          style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.75)' }}
+          className="max-w-2xl text-sm sm:text-base lg:text-lg text-white font-semibold tracking-wide leading-relaxed mb-10"
+          style={{ 
+            textShadow: '0 2px 8px rgba(0, 0, 0, 0.95), 0 0 15px rgba(0, 0, 0, 0.85)'
+          }}
         >
           {slides[current].subtitle}
         </p>

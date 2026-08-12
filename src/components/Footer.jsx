@@ -155,7 +155,7 @@ export default function Footer() {
               rel="noopener noreferrer" 
               className="text-[#C5A880] font-semibold hover:underline"
             >
-              digiteeworld.com
+              digitee world
             </a>
           </p>
         </div>

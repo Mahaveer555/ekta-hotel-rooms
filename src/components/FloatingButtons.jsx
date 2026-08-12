@@ -15,16 +15,16 @@ const WhatsAppIcon = ({ className = "w-6 h-6" }) => (
 export default function FloatingButtons() {
   return (
     <>
-      {/* Floating Buttons for Desktop & Tablet with Buoyancy Bounce */}
-      <div className="fixed bottom-6 right-6 z-40 hidden sm:flex flex-col gap-4 animate-float-bounce">
+      {/* Floating Buttons for Desktop & Tablet with Premium Individual Floating & Hover effects */}
+      <div className="fixed bottom-6 right-6 z-40 hidden sm:flex flex-col gap-4">
         {/* Call Floating Button with Gold Ripple */}
         <a
           href={`tel:${hotelInfo.phoneRaw}`}
-          className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-[#1E1611] text-[#C5A880] border-2 border-[#C5A880] hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#C5A880] animate-ripple-gold"
+          className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-[#1E1611] text-[#C5A880] border-2 border-[#C5A880] hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#C5A880] ripple-btn-gold animate-float-1 hover-wiggle"
           aria-label="Call EKTA HOTEL & ROOMS"
         >
-          <Phone className="w-5 h-5" />
-          <span className="absolute right-16 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-[#1E1611] text-white text-xs font-semibold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity border border-[#C5A880]/30">
+          <Phone className="w-5 h-5 icon-to-animate" />
+          <span className="absolute right-16 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-[#1E1611] text-white text-xs font-semibold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity border border-[#C5A880]/30 pointer-events-none">
             Call Desk
           </span>
         </a>
@@ -34,11 +34,11 @@ export default function FloatingButtons() {
           href={`https://wa.me/${hotelInfo.whatsappRaw}?text=${encodeURIComponent(hotelInfo.whatsappDefaultMsg)}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] text-white hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#25D366] animate-ripple-green"
+          className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] text-white hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#25D366] ripple-btn-green animate-float-2 hover-wiggle"
           aria-label="Book on WhatsApp"
         >
-          <WhatsAppIcon className="w-6 h-6" />
-          <span className="absolute right-16 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-[#1E1611] text-white text-xs font-semibold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity border border-[#C5A880]/30">
+          <WhatsAppIcon className="w-6 h-6 icon-to-animate" />
+          <span className="absolute right-16 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-[#1E1611] text-white text-xs font-semibold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity border border-[#C5A880]/30 pointer-events-none">
             WhatsApp Booking
           </span>
         </a>

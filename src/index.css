@@ -111,45 +111,85 @@ h1, h2, h3, h4, h5, h6, .font-serif {
 }
 
 /* Premium Floating Button Animations */
-@keyframes floating-bounce {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-  100% { transform: translateY(0); }
+@keyframes float-gentle-1 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
 }
 
-@keyframes ripple-gold {
+@keyframes float-gentle-2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-ripple {
   0% {
-    box-shadow: 0 0 0 0 rgba(197, 168, 128, 0.5) !important;
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(197, 168, 128, 0) !important;
+    transform: scale(1);
+    opacity: 0.65;
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(197, 168, 128, 0) !important;
+    transform: scale(1.6);
+    opacity: 0;
   }
 }
 
-@keyframes ripple-green {
-  0% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5) !important;
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0) !important;
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0) !important;
-  }
+@keyframes icon-wiggle {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(-12deg) scale(1.1); }
+  75% { transform: rotate(12deg) scale(1.1); }
 }
 
-.animate-float-bounce {
-  animation: floating-bounce 3.5s ease-in-out infinite;
+/* Float classes with offset delay */
+.animate-float-1 {
+  animation: float-gentle-1 4s ease-in-out infinite;
+}
+.animate-float-2 {
+  animation: float-gentle-2 4s ease-in-out infinite;
+  animation-delay: 2s; /* Delayed to offset floating */
 }
 
-.animate-ripple-gold {
-  animation: ripple-gold 2s infinite;
+/* Wiggle animation triggers */
+.hover-wiggle:hover .icon-to-animate {
+  animation: icon-wiggle 0.6s ease-in-out infinite;
 }
 
-.animate-ripple-green {
-  animation: ripple-green 2s infinite;
+/* Ring Ripple Styles */
+.ripple-btn-gold::before,
+.ripple-btn-gold::after {
+  content: '';
+  position: absolute;
+  inset: -2px; /* aligns exactly with border-2 */
+  border-radius: 50%;
+  border: 2px solid #C5A880;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.ripple-btn-gold::before {
+  animation: pulse-ripple 2.4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
+.ripple-btn-gold::after {
+  animation: pulse-ripple 2.4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+  animation-delay: 1.2s;
+}
+
+.ripple-btn-green::before,
+.ripple-btn-green::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: #25D366;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.ripple-btn-green::before {
+  animation: pulse-ripple 2.4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
+.ripple-btn-green::after {
+  animation: pulse-ripple 2.4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+  animation-delay: 1.2s;
 }
 

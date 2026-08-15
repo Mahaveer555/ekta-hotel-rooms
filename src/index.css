@@ -5,13 +5,13 @@
   --font-heading: 'Marcellus', 'Playfair Display', serif;
   --font-body: 'Montserrat', sans-serif;
 
-  --color-teal-deep: #2A201A;   /* Palm Pacific Dark Accent */
-  --color-teal-dark: #1E1611;   /* Palm Pacific Primary Dark background */
-  --color-gold-warm: #C5A880;   /* Palm Pacific Gold Accent */
-  --color-gold-light: #E2D1B9;  /* Palm Pacific Light Gold */
-  --color-cream: #FAF6F0;       /* Palm Pacific Cream background */
-  --color-beige-soft: #F1EAE0;  /* Palm Pacific Soft Beige */
-  --color-charcoal: #2B231E;    /* Palm Pacific Dark Text */
+  --color-teal-deep: #2A201A;   
+  --color-teal-dark: #1E1611;   
+  --color-gold-warm: #C5A880;   
+  --color-gold-light: #E2D1B9;  
+  --color-cream: #FAF6F0;       
+  --color-beige-soft: #F1EAE0;  
+  --color-charcoal: #2B231E;    
 }
 
 :root {

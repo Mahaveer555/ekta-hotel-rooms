@@ -34,7 +34,7 @@ export default function ScrollToTop() {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-22 right-6 z-30 hidden sm:flex items-center justify-center w-10 h-10 rounded-full bg-[#07383B]/80 text-[#E5C378] border border-[#C69A45]/40 backdrop-blur-sm shadow-md hover:bg-[#C69A45] hover:text-[#07383B] transition-all duration-300"
+          className="fixed bottom-38 right-6 z-30 hidden sm:flex items-center justify-center w-10 h-10 rounded-full bg-[#07383B]/80 text-[#E5C378] border border-[#C69A45]/40 backdrop-blur-sm shadow-md hover:bg-[#C69A45] hover:text-[#07383B] transition-all duration-300"
           aria-label="Scroll to top"
         >
           <ChevronUp className="w-5 h-5" />

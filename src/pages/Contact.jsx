@@ -16,8 +16,8 @@ export default function Contact() {
       <section className="relative py-24 lg:py-32 bg-[#1E1611] text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/ekta-25-4k.webp"
-            alt="EKTA HOTEL & ROOMS location view Ujjain"
+            src="/images/ekta-28-exterior-wide.webp"
+            alt="EKTA HOTEL & ROOMS location and parking view in Tarana Ujjain"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611] via-[#1E1611]/90 to-[#1E1611]/70" />
@@ -31,7 +31,7 @@ export default function Contact() {
             Contact Us & Directions
           </h1>
           <p className="mt-3 text-sm sm:text-base text-white/80 max-w-2xl">
-            We are conveniently located on the NH-52 highway at Banjari Bypass, Ujjain. Call, WhatsApp or visit us directly.
+            Located directly on A.B. Road (NH-52) on the main Indore – Shajapur – Biaora (Byawra) – Guna – Agra – Delhi highway route at Banjari Bypass, 2 Km from Rojawas Toll Plaza. Call, WhatsApp or visit us directly.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default function Contact() {
           <SectionHeading
             badge="Interactive Location Map"
             title="Find Us on Google Maps"
-            subtitle="Located on A.B. Road N.H.52, Banjari Bypass, 2 K.m. from Rojawas Toll Plaza, Opp. TATA Workshop, Dist. Ujjain (M.P.) - 456770."
+            subtitle="Located on A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana, Dist. Ujjain (MP) - 456665."
           />
 
           <div className="rounded-3xl overflow-hidden border-4 border-[#E9DFCF] shadow-xl bg-gray-100 h-96 sm:h-[450px] relative">

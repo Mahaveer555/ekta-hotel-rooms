@@ -14,8 +14,8 @@ export default function Restaurant() {
       <section className="relative py-24 lg:py-32 bg-[#1E1611] text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/ekta-06-4k.webp"
-            alt="EKTA Restaurant dining room"
+            src="/images/ekta-38-restaurant-hall-wide.webp"
+            alt="EKTA Pure Veg Restaurant spacious dining hall"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611] via-[#1E1611]/90 to-[#1E1611]/70" />
@@ -81,8 +81,8 @@ export default function Restaurant() {
             <div className="lg:col-span-6 grid grid-cols-12 gap-4">
               <div className="col-span-7 rounded-2xl overflow-hidden border border-[#C5A880]/30 shadow-xl bg-[#1E1611] h-64 sm:h-80">
                 <img
-                  src="/images/ekta-19-4k.webp"
-                  alt="Delicious vegetarian chow mein noodles"
+                  src="/images/ekta-37-restaurant-dining-booths.webp"
+                  alt="Private AC family dining booths"
                   className="w-full h-full object-cover hover:scale-105 transition-all duration-500"
                 />
               </div>
@@ -90,15 +90,15 @@ export default function Restaurant() {
               <div className="col-span-5 flex flex-col gap-4">
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-22-4k.webp"
-                    alt="Paneer masala dish served"
+                    src="/images/ekta-39-restaurant-tables-set.webp"
+                    alt="Arranged dining tables and menu"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-07-4k.webp"
-                    alt="Refreshing sweet lassi glasses"
+                    src="/images/ekta-22-4k.webp"
+                    alt="Freshly prepared paneer masala"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -157,8 +157,8 @@ export default function Restaurant() {
       {/* 4. Table Booking Enquiries */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <BookingCTA
-          title="Traveling on NH-52 Banjari Bypass?"
-          subtitle="Stop by EKTA Pure Veg Restaurant for fresh, delicious, hygienic meals. Call or message us on WhatsApp for menu details."
+          title="Traveling on Indore – Shajapur – Guna Highway (NH-52)?"
+          subtitle="Stop by EKTA Pure Veg Restaurant for fresh, delicious, hygienic meals and refreshing tea. Call or message us on WhatsApp for menu details."
         />
       </div>
 

@@ -15,8 +15,8 @@ export default function About() {
       <section className="relative py-24 lg:py-32 bg-[#1E1611] text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/ekta-25-4k.webp"
-            alt="EKTA HOTEL & ROOMS facade view in Kharkhadi Ujjain"
+            src="/images/ekta-28-exterior-wide.webp"
+            alt="EKTA HOTEL & ROOMS facade and parking in Tarana Ujjain"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611] via-[#1E1611]/90 to-[#1E1611]/70" />
@@ -53,19 +53,19 @@ export default function About() {
               </div>
 
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                <strong>EKTA HOTEL & ROOMS</strong> is a welcoming hotel and pure vegetarian restaurant located in Kharkhadi, Ujjain. We focus on providing clean accommodation, convenient facilities, freshly prepared food and helpful service for families, business travellers and highway guests.
+                <strong>EKTA HOTEL & ROOMS</strong> is a welcoming highway hotel and 100% pure vegetarian restaurant located right on <strong>A.B. Road, N.H. 52 on the Indore – Shajapur – Biaora (Byawra) – Guna – Agra – Delhi highway route</strong> (Banjari Bypass, Tarana, Ujjain). We focus on providing clean AC accommodation, convenient highway amenities, freshly prepared hygienic meals, and courteous hospitality for families and long-distance drivers.
               </p>
 
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                Strategically located on A.B. Road NH-52 Banjari Bypass, our property serves as a convenient stopover for travelers looking for secure parking, children's garden space, cozy air-conditioned rooms, and healthy vegetarian meals prepared with local hygiene standards.
+                Located just 2 K.m. from Rojawas Toll Plaza, our property serves as an ideal halt for travelers seeking spacious secure parking, children's play area, peaceful air-conditioned rooms, and wholesome pure vegetarian food with zero city congestion.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded-xl bg-white border border-[#E9DFCF] shadow-sm flex gap-3.5">
                   <Compass className="w-6 h-6 text-[#C5A880] shrink-0" />
                   <div>
-                    <h4 className="font-serif text-sm font-bold text-[#1E1611]">Highway Connectivity</h4>
-                    <p className="text-xs text-gray-600 mt-1">Directly accessible on NH-52 with zero city traffic hassle.</p>
+                    <h4 className="font-serif text-sm font-bold text-[#1E1611]">Highway Route Connectivity</h4>
+                    <p className="text-xs text-gray-600 mt-1">Directly on Indore – Shajapur – Biaora – Guna – Delhi route (NH-52).</p>
                   </div>
                 </div>
 
@@ -83,8 +83,8 @@ export default function About() {
             <div className="lg:col-span-6 space-y-6">
               <div className="rounded-2xl overflow-hidden border border-[#C5A880]/30 shadow-xl bg-[#1E1611]">
                 <img
-                  src="/images/ekta-23-4k.webp"
-                  alt="Sunset building view"
+                  src="/images/ekta-29-facade-front.webp"
+                  alt="Daytime Hotel Ekta building front elevation"
                   className="w-full h-72 object-cover"
                 />
               </div>
@@ -92,15 +92,15 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 bg-[#1E1611] h-32 sm:h-40">
                   <img
-                    src="/images/ekta-10-4k.webp"
-                    alt="Outdoor night balcony seating"
+                    src="/images/ekta-30-entrance-hall.webp"
+                    alt="AC Family Hall entrance and verandah"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 bg-[#1E1611] h-32 sm:h-40">
                   <img
-                    src="/images/ekta-06-4k.webp"
-                    alt="Dining interior tables"
+                    src="/images/ekta-31-entrance-steps.webp"
+                    alt="Main entrance staircase with planters"
                     className="w-full h-full object-cover"
                   />
                 </div>

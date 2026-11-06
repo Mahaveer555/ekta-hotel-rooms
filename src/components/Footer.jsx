@@ -19,7 +19,7 @@ export default function Footer() {
             <Logo light={true} />
             
             <p className="text-xs sm:text-sm text-white/70 leading-relaxed pt-2">
-              EKTA HOTEL & ROOMS is a family-friendly hotel and 100% pure vegetarian restaurant located in Kharkhadi, Ujjain. We provide clean, comfortable AC accommodation and freshly prepared meals for highway travelers and pilgrims.
+              EKTA HOTEL & ROOMS is a family-friendly hotel and 100% pure vegetarian restaurant located directly on A.B. Road (NH-52) on the Indore – Shajapur – Biaora (Byawra) – Guna – Delhi highway route at Banjari Bypass, 2 Km from Rojawas Toll Plaza.
             </p>
 
             <div className="pt-2 flex items-center gap-2 text-xs text-[#C5A880]">

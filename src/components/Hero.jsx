@@ -4,19 +4,24 @@ import { hotelInfo } from '../data/hotelData';
 
 const slides = [
   {
-    image: '/images/ekta-08-4k.webp',
+    image: '/images/ekta-29-facade-front.webp',
     title: 'Comfortable Rooms & Pure Veg Dining',
-    subtitle: 'Safe parking and clean accommodation, perfect for families and highway travellers.'
+    subtitle: 'Directly on the Indore – Shajapur – Biaora (Byawra) – Guna Highway (NH-52) with safe parking & clean AC rooms.'
   },
   {
-    image: '/images/ekta-23-4k.webp',
-    title: 'Convenient Highway Location',
-    subtitle: 'Located on N.H.52 Banjari Bypass, offering easy access for Ujjain pilgrims.'
+    image: '/images/ekta-38-restaurant-hall-wide.webp',
+    title: 'Spacious 100% Pure Veg Restaurant',
+    subtitle: 'Fresh flavours, hygienic kitchen, and comfortable family dining hall for highway travelers.'
   },
   {
-    image: '/images/ekta-06-4k.webp',
-    title: '100% Pure Vegetarian Restaurant',
-    subtitle: 'Fresh flavours and hygienic kitchen settings in a family-friendly environment.'
+    image: '/images/ekta-35-room-bed-detail.webp',
+    title: 'Peaceful Air-Conditioned Rooms',
+    subtitle: 'Clean AC guest rooms with private washrooms, hot water, and 24/7 service on your highway journey.'
+  },
+  {
+    image: '/images/ekta-28-exterior-wide.webp',
+    title: 'Prime Highway Route (NH-52)',
+    subtitle: 'Directly on Indore – Shajapur – Biaora – Guna – Agra – Delhi Highway at Banjari Bypass, 2 Km from Rojawas Toll Plaza.'
   }
 ];
 

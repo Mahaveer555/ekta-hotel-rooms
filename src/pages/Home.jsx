@@ -51,6 +51,39 @@ export default function Home() {
       {/* 1. Cinematic Hero Slider */}
       <Hero />
 
+      {/* Highway Route Connectivity Banner */}
+      <div className="bg-[#2A201A] text-white border-y border-[#C5A880]/30 py-3.5 px-4 shadow-lg relative z-20">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-3 text-center lg:text-left">
+          <div className="flex items-center gap-2.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#C5A880] animate-pulse shrink-0" />
+            <span className="text-xs uppercase tracking-widest text-[#C5A880] font-bold">
+              Highway Location:
+            </span>
+            <span className="text-xs sm:text-sm font-semibold text-white/95">
+              A.B. Road (N.H. 52)
+            </span>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 text-xs sm:text-sm font-medium text-white/90">
+            <span className="px-2.5 py-1 rounded-md bg-white/10 text-[#C5A880] font-bold">Indore</span>
+            <span className="text-[#C5A880]">➔</span>
+            <span className="px-2.5 py-1 rounded-md bg-white/10">Shajapur</span>
+            <span className="text-[#C5A880]">➔</span>
+            <span className="px-2.5 py-1 rounded-md bg-white/10">Biaora (Byawra)</span>
+            <span className="text-[#C5A880]">➔</span>
+            <span className="px-2.5 py-1 rounded-md bg-white/10">Guna</span>
+            <span className="text-[#C5A880]">➔</span>
+            <span className="px-2.5 py-1 rounded-md bg-white/10">Agra</span>
+            <span className="text-[#C5A880]">➔</span>
+            <span className="px-2.5 py-1 rounded-md bg-white/10 text-[#C5A880] font-bold">Delhi</span>
+          </div>
+
+          <span className="text-[11px] text-[#C5A880] tracking-wide font-medium bg-[#1E1611] px-3.5 py-1 rounded-full border border-[#C5A880]/30 shrink-0">
+            Near Rojawas Toll Plaza, Banjari Bypass
+          </span>
+        </div>
+      </div>
+
       {/* 2. Quick Highlight Strip */}
       <section className="relative z-20 py-8 bg-[#1E1611] text-white border-y border-[#C5A880]/30 shadow-2xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -74,7 +107,7 @@ export default function Home() {
             <div className="space-y-1 pl-2">
               <span className="block text-xs uppercase tracking-widest text-[#C5A880] font-bold">Guest Rating</span>
               <span className="block font-serif text-lg md:text-xl font-bold text-[#C5A880] flex items-center justify-center gap-1">
-                4.1★ <span className="text-white text-xs font-normal">Google Rated</span>
+                5 ★ <span className="text-white text-xs font-normal">Google Rated</span>
               </span>
             </div>
 
@@ -91,8 +124,8 @@ export default function Home() {
             <div className="lg:col-span-6 relative">
               <div className="rounded-2xl overflow-hidden border-2 border-[#C5A880]/30 shadow-xl bg-[#1E1611]">
                 <img
-                  src="/images/ekta-18-4k.webp"
-                  alt="EKTA HOTEL & ROOMS daytime facade side angle"
+                  src="/images/ekta-29-facade-front.webp"
+                  alt="EKTA HOTEL & ROOMS daytime facade front elevation"
                   className="w-full h-[380px] sm:h-[450px] object-cover hover:scale-103 transition-all duration-700"
                 />
               </div>
@@ -100,15 +133,15 @@ export default function Home() {
               {/* Overlapping small dining hall image */}
               <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-6 w-52 sm:w-64 rounded-xl overflow-hidden border-4 border-[#FAF6F0] shadow-2xl hidden sm:block bg-[#1E1611]">
                 <img
-                  src="/images/ekta-06-4k.webp"
-                  alt="EKTA Restaurant dining area"
+                  src="/images/ekta-30-entrance-hall.webp"
+                  alt="EKTA AC Family Hall and walkway"
                   className="w-full h-40 object-cover"
                 />
               </div>
 
               {/* Location Badge */}
-              <div className="absolute top-4 left-4 px-3 py-1.5 rounded-lg bg-[#1E1611]/90 backdrop-blur-sm border border-[#C5A880]/40 text-[#C5A880] text-[10px] font-bold uppercase tracking-widest">
-                Kharkhadi, Ujjain
+              <div className="absolute top-4 left-4 px-3 py-1.5 rounded-lg bg-[#1E1611]/90 backdrop-blur-sm border border-[#C5A880]/40 text-[#C5A880] text-[10px] font-bold uppercase tracking-wider">
+                NH-52 • Indore-Shajapur-Guna Route
               </div>
             </div>
 
@@ -125,7 +158,7 @@ export default function Home() {
               </div>
 
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                Located in Kharkhadi, Ujjain, <strong>EKTA HOTEL & ROOMS</strong> brings together comfortable accommodation, pure vegetarian dining and warm hospitality. Whether you are travelling with family, visiting for work or taking a break during your journey, we provide a clean and convenient experience.
+                Located directly on <strong>A.B. Road, N.H. 52 (Indore – Shajapur – Biaora / Byawra – Guna – Agra – Delhi Highway)</strong> at Banjari Bypass, <strong>EKTA HOTEL & ROOMS</strong> brings together comfortable AC accommodation, authentic pure vegetarian dining, and warm hospitality. Whether you are driving long-distance on the highway, travelling with family, or visiting Ujjain for pilgrimage, we offer a clean, secure and refreshing halt.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
@@ -359,24 +392,24 @@ export default function Home() {
             <div className="lg:col-span-8 grid grid-cols-12 gap-4">
               <div className="col-span-12 rounded-2xl overflow-hidden border border-[#C5A880]/30 shadow-xl bg-[#1E1611] h-72 sm:h-96">
                 <img
-                  src="/images/ekta-10-4k.webp"
-                  alt="EKTA HOTEL PORCH dining space"
+                  src="/images/ekta-28-exterior-wide.webp"
+                  alt="EKTA HOTEL wide building facade and vehicle parking"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <div className="col-span-6 rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-32 sm:h-44">
                 <img
-                  src="/images/ekta-16-4k.webp"
-                  alt="Hotel Entrance porch night view"
+                  src="/images/ekta-30-entrance-hall.webp"
+                  alt="AC Family Hall entrance and covered verandah"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <div className="col-span-6 rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-32 sm:h-44">
                 <img
-                  src="/images/ekta-17-4k.webp"
-                  alt="Building arches night signage view"
+                  src="/images/ekta-31-entrance-steps.webp"
+                  alt="Main entrance staircase with planters and hotel sign"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -436,8 +469,8 @@ export default function Home() {
                   <Check className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-base font-bold text-[#C5A880]">Highway Convenience</h4>
-                  <p className="text-xs text-white/70 mt-1">Convenient location near toll plaza, perfect for highway halts.</p>
+                  <h4 className="font-serif text-base font-bold text-[#C5A880]">Indore – Guna – Delhi Highway Route</h4>
+                  <p className="text-xs text-white/70 mt-1">Directly on NH-52 A.B. Road, 2 Km from Rojawas Toll Plaza. Ideal rest stop for highway travelers.</p>
                 </div>
               </div>
 
@@ -482,7 +515,7 @@ export default function Home() {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-5 h-5 fill-current" />
             ))}
-            <span className="text-sm font-bold text-gray-800 ml-2">4.1 / 5 Google Rating</span>
+            <span className="text-sm font-bold text-gray-800 ml-2">5  / 5 Google Rating</span>
           </div>
 
           {/* Testimonial slider */}

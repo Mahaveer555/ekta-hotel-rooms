@@ -125,7 +125,7 @@ export default function Navbar() {
             <div className="space-y-6">
               <div className="pb-4 border-b border-[#C5A880]/20 flex items-center justify-between">
                 <span className="text-[10px] uppercase tracking-widest text-[#C5A880] font-bold">Navigation</span>
-                <span className="text-[11px] text-white/50">Kharkhadi, Ujjain</span>
+                <span className="text-[11px] text-white/50">NH-52 (Indore-Shajapur Route)</span>
               </div>
 
               <nav className="flex flex-col space-y-1">

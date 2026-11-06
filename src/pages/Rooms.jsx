@@ -22,8 +22,8 @@ export default function Rooms() {
       <section className="relative py-24 lg:py-32 bg-[#1E1611] text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/ekta-27-4k.webp"
-            alt="EKTA HOTEL & ROOMS room layout"
+            src="/images/ekta-35-room-bed-detail.webp"
+            alt="EKTA HOTEL & ROOMS authentic guest room with branded bedding"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611] via-[#1E1611]/90 to-[#1E1611]/70" />

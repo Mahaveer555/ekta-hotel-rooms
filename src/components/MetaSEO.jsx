@@ -40,7 +40,7 @@ export default function MetaSEO({ page = 'home' }) {
     updateMetaTag('property', 'og:url', `https://ektahotel.com${cleanPath}`);
     updateMetaTag('property', 'og:title', current.title);
     updateMetaTag('property', 'og:description', current.description);
-    updateMetaTag('property', 'og:image', 'https://ektahotel.com/images/ekta-08-4k.webp');
+    updateMetaTag('property', 'og:image', 'https://ektahotel.com/images/ekta-29-facade-front.webp');
     updateMetaTag('property', 'og:site_name', 'EKTA HOTEL & ROOMS');
 
     // 5. Twitter Card Meta Tags for Social Previews
@@ -48,7 +48,7 @@ export default function MetaSEO({ page = 'home' }) {
     updateMetaTag('name', 'twitter:url', `https://ektahotel.com${cleanPath}`);
     updateMetaTag('name', 'twitter:title', current.title);
     updateMetaTag('name', 'twitter:description', current.description);
-    updateMetaTag('name', 'twitter:image', 'https://ektahotel.com/images/ekta-08-4k.webp');
+    updateMetaTag('name', 'twitter:image', 'https://ektahotel.com/images/ekta-29-facade-front.webp');
 
     // 6. Dynamic JSON-LD Structured Data (Google Rich Snippets)
     let schemaData = {};
@@ -59,7 +59,7 @@ export default function MetaSEO({ page = 'home' }) {
         "@type": "Hotel",
         "name": hotelInfo.name,
         "description": current.description,
-        "image": "https://ektahotel.com/images/ekta-08-4k.webp",
+        "image": "https://ektahotel.com/images/ekta-29-facade-front.webp",
         "telephone": hotelInfo.phone,
         "email": hotelInfo.email,
         "priceRange": "INR",
@@ -67,10 +67,10 @@ export default function MetaSEO({ page = 'home' }) {
         "hasMap": hotelInfo.googleMapsUrl,
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "A.B. Road N.H.52, Banjari Bypass, 2 K.m. from Rojawas Toll Plaza, Opp. TATA Workshop",
-          "addressLocality": "Kharkhadi",
+          "streetAddress": "A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana",
+          "addressLocality": "Tarana",
           "addressRegion": "Ujjain, Madhya Pradesh",
-          "postalCode": "456770",
+          "postalCode": "456665",
           "addressCountry": "IN"
         },
         "geo": {
@@ -102,17 +102,17 @@ export default function MetaSEO({ page = 'home' }) {
         "@type": "Restaurant",
         "name": "EKTA Pure Veg Restaurant",
         "description": current.description,
-        "image": "https://ektahotel.com/images/ekta-06-4k.webp",
+        "image": "https://ektahotel.com/images/ekta-37-restaurant-dining-booths.webp",
         "telephone": hotelInfo.phone,
         "priceRange": "INR",
         "servesCuisine": ["North Indian", "Punjabi", "Chinese", "Pure Vegetarian"],
         "menu": "https://ektahotel.com/restaurant",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "A.B. Road N.H.52, Banjari Bypass",
-          "addressLocality": "Kharkhadi",
+          "streetAddress": "A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana",
+          "addressLocality": "Tarana",
           "addressRegion": "Ujjain, Madhya Pradesh",
-          "postalCode": "456770",
+          "postalCode": "456665",
           "addressCountry": "IN"
         },
         "geo": {
@@ -127,15 +127,15 @@ export default function MetaSEO({ page = 'home' }) {
         "@type": "Hotel",
         "name": "EKTA HOTEL & ROOMS - Accommodation",
         "description": current.description,
-        "image": "https://ektahotel.com/images/ekta-27-4k.webp",
+        "image": "https://ektahotel.com/images/ekta-35-room-bed-detail.webp",
         "telephone": hotelInfo.phone,
         "priceRange": "INR",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "A.B. Road N.H.52, Banjari Bypass",
-          "addressLocality": "Kharkhadi",
+          "streetAddress": "A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana",
+          "addressLocality": "Tarana",
           "addressRegion": "Ujjain, Madhya Pradesh",
-          "postalCode": "456770",
+          "postalCode": "456665",
           "addressCountry": "IN"
         },
         "containsPlace": [
@@ -172,10 +172,10 @@ export default function MetaSEO({ page = 'home' }) {
           "name": hotelInfo.name,
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "A.B. Road N.H.52, Banjari Bypass",
-            "addressLocality": "Kharkhadi",
+            "streetAddress": "A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana",
+            "addressLocality": "Tarana",
             "addressRegion": "Ujjain, Madhya Pradesh",
-            "postalCode": "456770",
+            "postalCode": "456665",
             "addressCountry": "IN"
           }
         }
@@ -193,10 +193,10 @@ export default function MetaSEO({ page = 'home' }) {
           "email": hotelInfo.email,
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "A.B. Road N.H.52, Banjari Bypass",
-            "addressLocality": "Kharkhadi",
+            "streetAddress": "A.B. Road, N.H.52, Banjari Bypass, Opp. TATA Workshop, 2 K.m From Rojawas Toll Plaza, Ta. Tarana",
+            "addressLocality": "Tarana",
             "addressRegion": "Ujjain, Madhya Pradesh",
-            "postalCode": "456770",
+            "postalCode": "456665",
             "addressCountry": "IN"
           }
         }

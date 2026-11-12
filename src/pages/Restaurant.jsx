@@ -97,8 +97,8 @@ export default function Restaurant() {
                 </div>
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-22-4k.webp"
-                    alt="Freshly prepared paneer masala"
+                    src="/images/ekta-40-restaurant-table-vertical.webp"
+                    alt="Family dining area and AC hall entry"
                     className="w-full h-full object-cover"
                   />
                 </div>

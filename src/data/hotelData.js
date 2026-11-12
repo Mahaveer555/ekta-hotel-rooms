@@ -193,15 +193,50 @@ export const roomFaqs = [
   }
 ];
 
-export const galleryCategories = ["All", "Exterior", "Rooms", "Restaurant", "Food", "Reception"];
+export const galleryCategories = ["All", "Exterior", "Rooms", "Restaurant"];
 
 export const galleryImages = [
+  {
+    id: "g-new-1",
+    title: "Daytime Front Elevation & Signage",
+    category: "Exterior",
+    src: "/images/ekta-29-facade-front.webp",
+    alt: "EKTA HOTEL & ROOMS daytime direct front elevation showing AC Hall, Pure Veg and Rooms"
+  },
   {
     id: "g-rest-hall-wide",
     title: "Spacious Pure Veg Dining Hall",
     category: "Restaurant",
     src: "/images/ekta-38-restaurant-hall-wide.webp",
     alt: "Panoramic view of pure vegetarian dining hall with wooden beam ceiling and booth seating"
+  },
+  {
+    id: "g-room-1",
+    title: "Comfort AC Room with Branded Bedding",
+    category: "Rooms",
+    src: "/images/ekta-35-room-bed-detail.webp",
+    alt: "Comfort AC double room with official EKTA HOTEL branded linens, blanket and swan towel art"
+  },
+  {
+    id: "g-rest-1",
+    title: "AC Family Restaurant Dining Booths",
+    category: "Restaurant",
+    src: "/images/ekta-37-restaurant-dining-booths.webp",
+    alt: "Modern air-conditioned restaurant with comfortable private sofa booth seating and pendant lights"
+  },
+  {
+    id: "g-room-2",
+    title: "Spacious Deluxe Family Room",
+    category: "Rooms",
+    src: "/images/ekta-34-deluxe-room-full.webp",
+    alt: "Spacious family guest room with double bed, extra family mattress bedding, wardrobe and seating"
+  },
+  {
+    id: "g1",
+    title: "Illuminated Hotel Facade at Night",
+    category: "Exterior",
+    src: "/images/ekta-08-4k.webp",
+    alt: "EKTA HOTEL & ROOMS building facade night view illuminated signage in Kharkhadi Ujjain"
   },
   {
     id: "g-rest-tables-set",
@@ -218,27 +253,6 @@ export const galleryImages = [
     alt: "Table setting with menu and view towards AC Hall Only for Family at EKTA Restaurant"
   },
   {
-    id: "g-room-1",
-    title: "Comfort AC Room with Branded Bedding",
-    category: "Rooms",
-    src: "/images/ekta-35-room-bed-detail.webp",
-    alt: "Comfort AC double room with official EKTA HOTEL branded linens, blanket and swan towel art"
-  },
-  {
-    id: "g-room-2",
-    title: "Spacious Deluxe Family Room",
-    category: "Rooms",
-    src: "/images/ekta-34-deluxe-room-full.webp",
-    alt: "Spacious family guest room with double bed, extra family mattress bedding, wardrobe and seating"
-  },
-  {
-    id: "g-rest-1",
-    title: "AC Family Restaurant Dining Booths",
-    category: "Restaurant",
-    src: "/images/ekta-37-restaurant-dining-booths.webp",
-    alt: "Modern air-conditioned restaurant with comfortable private sofa booth seating and pendant lights"
-  },
-  {
     id: "g-ext-dusk",
     title: "Golden Hour Exterior Facade",
     category: "Exterior",
@@ -251,13 +265,6 @@ export const galleryImages = [
     category: "Exterior",
     src: "/images/ekta-33-entrance-front.webp",
     alt: "Front entrance of EKTA HOTEL with green planters, steps, and pure veg logo"
-  },
-  {
-    id: "g-new-1",
-    title: "Daytime Front Elevation & Signage",
-    category: "Exterior",
-    src: "/images/ekta-29-facade-front.webp",
-    alt: "EKTA HOTEL & ROOMS daytime direct front elevation showing AC Hall, Pure Veg and Rooms"
   },
   {
     id: "g-new-2",
@@ -288,13 +295,6 @@ export const galleryImages = [
     alt: "Side driveway view showing ample parking space for cars and buses at EKTA HOTEL"
   },
   {
-    id: "g1",
-    title: "Illuminated Hotel Facade at Night",
-    category: "Exterior",
-    src: "/images/ekta-08-4k.webp",
-    alt: "EKTA HOTEL & ROOMS building facade night view illuminated signage in Kharkhadi Ujjain"
-  },
-  {
     id: "g2",
     title: "Daytime Building Facade & Parking",
     category: "Exterior",
@@ -309,34 +309,6 @@ export const galleryImages = [
     alt: "EKTA HOTEL & ROOMS daytime highway side view showing restaurant and room sections"
   },
   {
-    id: "g4",
-    title: "Premium Family Dining Hall",
-    category: "Restaurant",
-    src: "/images/ekta-06-4k.webp",
-    alt: "Beautiful indoor restaurant dining area with purple and beige chairs at EKTA Restaurant"
-  },
-  {
-    id: "g5",
-    title: "Luxurious Hotel Suite Room",
-    category: "Rooms",
-    src: "/images/ekta-27-4k.webp",
-    alt: "Spacious master guest room suite layout with cozy bed and couch at EKTA HOTEL"
-  },
-  {
-    id: "g6",
-    title: "Pure Vegetarian Chinese Noodles",
-    category: "Food",
-    src: "/images/ekta-19-4k.webp",
-    alt: "Delicious freshly prepared pure vegetarian noodles chow mein served at EKTA Restaurant"
-  },
-  {
-    id: "g7",
-    title: "Delicious Paneer Masala Gravy",
-    category: "Food",
-    src: "/images/ekta-22-4k.webp",
-    alt: "Freshly cooked paneer masala gravy dish served in a bowl at EKTA Restaurant"
-  },
-  {
     id: "g8",
     title: "Illuminated Night Entrance Porch",
     category: "Exterior",
@@ -344,46 +316,11 @@ export const galleryImages = [
     alt: "EKTA HOTEL & ROOMS beautifully illuminated porch balcony seating area at night"
   },
   {
-    id: "g9",
-    title: "Cozy Guest Room Ambience",
-    category: "Rooms",
-    src: "/images/ekta-01-4k.webp",
-    alt: "Comfortable air-conditioned room with bedside lamp at EKTA HOTEL"
-  },
-  {
     id: "g10",
     title: "Night View building with Cars",
     category: "Exterior",
     src: "/images/ekta-14-4k.webp",
     alt: "EKTA HOTEL & ROOMS nighttime building exterior front view with parked vehicles"
-  },
-  {
-    id: "g11",
-    title: "Traditional North Indian Thali",
-    category: "Food",
-    src: "/images/ekta-02-4k.webp",
-    alt: "Nutritious 100% pure vegetarian lunch/dinner thali plate served at EKTA Restaurant"
-  },
-  {
-    id: "g12",
-    title: "Authentic Roti and Dal Fry",
-    category: "Food",
-    src: "/images/ekta-09-4k.webp",
-    alt: "Traditional roti flatbread with dal fry curry served at EKTA Restaurant"
-  },
-  {
-    id: "g13",
-    title: "Chandelier Restaurant Dining Area",
-    category: "Restaurant",
-    src: "/images/ekta-24-4k.webp",
-    alt: "Elegant luxury restaurant dining tables with overhead crystal chandelier decoration"
-  },
-  {
-    id: "g14",
-    title: "Refreshing Sweet Lassi Glasses",
-    category: "Food",
-    src: "/images/ekta-07-4k.webp",
-    alt: "Two glasses of cold refreshing sweet lassi served at EKTA Restaurant"
   },
   {
     id: "g15",

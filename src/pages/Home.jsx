@@ -313,8 +313,8 @@ export default function Home() {
                 </div>
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-22-4k.webp"
-                    alt="Freshly prepared pure veg dishes"
+                    src="/images/ekta-39-restaurant-tables-set.webp"
+                    alt="Arranged dining tables and menu setup"
                     className="w-full h-full object-cover"
                   />
                 </div>

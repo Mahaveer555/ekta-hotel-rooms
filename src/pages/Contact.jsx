@@ -20,7 +20,7 @@ export default function Contact() {
             alt="EKTA HOTEL & ROOMS location and parking view in Tarana Ujjain"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611] via-[#1E1611]/90 to-[#1E1611]/70" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1E1611]/95 via-[#1E1611]/80 to-[#1E1611]/50" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">

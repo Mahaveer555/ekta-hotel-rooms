@@ -36,8 +36,8 @@ export default function GalleryGrid({ limit = null, showFilters = true }) {
               onClick={() => setActiveCategory(cat)}
               className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-full transition-all duration-300 ${
                 activeCategory === cat
-                  ? 'bg-[#0D4F52] text-[#E5C378] shadow-md border border-[#C69A45]'
-                  : 'bg-white text-gray-700 hover:bg-[#F8F3E8] border border-gray-200'
+                  ? 'bg-[#1E1611] text-[#C5A880] shadow-md border border-[#C5A880]'
+                  : 'bg-white text-gray-700 hover:bg-[#FAF6F0] border border-gray-200'
               }`}
             >
               {cat}
@@ -52,20 +52,20 @@ export default function GalleryGrid({ limit = null, showFilters = true }) {
           <div
             key={item.id}
             onClick={() => handleOpenLightbox(idx)}
-            className="group relative rounded-2xl overflow-hidden bg-[#07383B] border border-[#E9DFCF] shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer h-64 sm:h-72"
+            className="group relative rounded-2xl overflow-hidden bg-[#1E1611] border border-[#C5A880]/30 shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer h-64 sm:h-72"
           >
             <img
               src={item.src}
               alt={item.alt}
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-100 contrast-[1.02]"
               loading="lazy"
             />
 
             {/* Dark Hover Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#07383B]/90 via-[#0D4F52]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+            <div className="absolute inset-0 bg-gradient-to-t from-[#120C08]/95 via-[#1E1611]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <span className="text-[10px] uppercase tracking-widest font-bold text-[#E5C378]">
+                  <span className="text-[10px] uppercase tracking-widest font-bold text-[#C5A880]">
                     {item.category}
                   </span>
                   <h4 className="font-serif text-base font-bold text-white leading-tight">
@@ -73,7 +73,7 @@ export default function GalleryGrid({ limit = null, showFilters = true }) {
                   </h4>
                 </div>
 
-                <div className="w-9 h-9 rounded-full bg-[#C69A45] text-[#07383B] flex items-center justify-center shrink-0 shadow-lg">
+                <div className="w-9 h-9 rounded-full bg-[#C5A880] text-[#1E1611] flex items-center justify-center shrink-0 shadow-lg">
                   <Eye className="w-5 h-5" />
                 </div>
               </div>

@@ -36,7 +36,7 @@ export default function ImageLightbox({
 
         <button
           onClick={onClose}
-          className="p-2 rounded-full bg-white/10 text-white hover:bg-white/20 hover:text-[#E5C378] transition-colors focus:outline-none"
+          className="p-2 rounded-full bg-white/10 text-white hover:bg-white/20 hover:text-[#C5A880] transition-colors focus:outline-none"
           aria-label="Close Lightbox"
         >
           <X className="w-6 h-6" />
@@ -55,7 +55,7 @@ export default function ImageLightbox({
         />
 
         <div className="mt-4 text-center">
-          <h3 className="font-serif text-lg sm:text-xl font-bold text-[#E5C378]">
+          <h3 className="font-serif text-lg sm:text-xl font-bold text-[#C5A880]">
             {image.title}
           </h3>
           <p className="text-xs sm:text-sm text-white/70 mt-1 max-w-xl mx-auto">

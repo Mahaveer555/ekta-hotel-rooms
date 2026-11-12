@@ -293,11 +293,11 @@ export default function Home() {
 
             {/* Right: Premium Split-Image Composition */}
             <div className="lg:col-span-6 grid grid-cols-12 gap-4 relative">
-              {/* Dominant Food image (Paneer/Noodles) */}
+              {/* Dominant Restaurant Dining Hall image */}
               <div className="col-span-8 rounded-2xl overflow-hidden border border-[#C5A880]/30 shadow-xl bg-[#1E1611] h-64 sm:h-80">
                 <img
-                  src="/images/ekta-22-4k.webp"
-                  alt="Paneer curry served at EKTA Restaurant"
+                  src="/images/ekta-38-restaurant-hall-wide.webp"
+                  alt="Spacious Pure Veg Dining Hall at EKTA Restaurant"
                   className="w-full h-full object-cover hover:scale-105 transition-all duration-500"
                 />
               </div>
@@ -306,15 +306,15 @@ export default function Home() {
               <div className="col-span-4 flex flex-col gap-4">
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-19-4k.webp"
-                    alt="Pure veg Chinese noodles chow mein"
+                    src="/images/ekta-37-restaurant-dining-booths.webp"
+                    alt="Private AC family dining booths"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-xl overflow-hidden border border-[#C5A880]/30 shadow-md bg-[#1E1611] h-28 sm:h-38">
                   <img
-                    src="/images/ekta-02-4k.webp"
-                    alt="North Indian Thali plate served"
+                    src="/images/ekta-22-4k.webp"
+                    alt="Freshly prepared pure veg dishes"
                     className="w-full h-full object-cover"
                   />
                 </div>

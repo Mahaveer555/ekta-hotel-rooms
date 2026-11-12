@@ -58,17 +58,11 @@ export default function Hero() {
             <img
               src={slide.image}
               alt="EKTA HOTEL & ROOMS Ujjain premises"
-              className="w-full h-full object-cover brightness-[0.85] contrast-[1.02]"
+              className="w-full h-full object-cover object-center brightness-100 contrast-[1.03] saturate-[1.03]"
               loading={idx === 0 ? "eager" : "lazy"}
             />
-            {/* Semi-transparent dark overlay for high text contrast */}
-            <div className="absolute inset-0 bg-black/45 z-10 pointer-events-none" />
-            
-            {/* Top Vignette (to make transparent navbar text contrast perfectly) */}
-            <div className="absolute inset-x-0 top-0 h-[30%] bg-gradient-to-b from-black/75 via-black/40 to-transparent z-10 pointer-events-none" />
-            
-            {/* Bottom Vignette (to make cinematic bottom transition slide smooth) */}
-            <div className="absolute inset-x-0 bottom-0 h-[30%] bg-gradient-to-t from-black/75 via-black/40 to-transparent z-10 pointer-events-none" />
+            {/* Clean HD Vignette - Keeps sky and facade vivid while ensuring crisp text readability */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#120C08]/90 via-[#1E1611]/25 to-black/55 z-10 pointer-events-none" />
           </div>
         ))}
       </div>
